@@ -1,0 +1,31 @@
+body {background-color: #533E85;
+        color: white;
+        font-family: texto2;
+    }
+h1 {font-family:texto1 ;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #488FB1;
+    margin: 2%;
+    padding: 2%;}
+.four {width: 21%;
+            float: left;
+            box-sizing: border-box;
+            padding: 2%;
+            position: relative;
+            background-color: #4FD3C4;
+            border-radius:15px ;
+            margin: 2%;
+            text-align: center;
+        }
+.four:hover{opacity: 80%;
+            background-color: #C1F8CF;}
+
+@font-face {
+    font-family: texto1;
+    src: url(../fonts/whats-love-oshare/gomarice_whats_love_oshare.ttf);
+}
+@font-face {
+    font-family: texto2;
+    src: url(../fonts/oswald/Oswald-Bold.ttf);
+}
